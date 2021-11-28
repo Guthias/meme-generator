@@ -40,3 +40,38 @@
 .earth {
   border: 6px groove green;
 }
+
+.custom-border-button {
+  padding:10px 15px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all ease-in-out 0.2s;
+}
+
+#fire {
+  background-color: red;
+}
+
+#fire:hover {
+  background-color: rgb(146, 5, 5);
+}
+
+#water {
+  background-color: blue;
+}
+
+#water:hover {
+  background-color: rgb(1, 1, 148);
+}
+
+#earth {
+  background-color: green;
+}
+
+#earth:hover {
+  background-color: rgb(3, 75, 3);
+}
