@@ -3,9 +3,6 @@ const memeInsert = document.getElementById('meme-insert');
 const memeInput = document.getElementById('text-input');
 const memeText = document.getElementById('meme-text');
 const memeContainer = document.getElementById('meme-image-container');
-const fireButton = document.getElementById('fire');
-const waterButton = document.getElementById('water');
-const earthButton = document.getElementById('earth');
 
 function changeBorder(event) {
   const borderName = event.target.id;
@@ -41,10 +38,8 @@ function templateIamge(event) {
 
 memeInsert.addEventListener('change', changeImage);
 memeInput.addEventListener('keyup', changeText);
-fireButton.addEventListener('click', changeBorder);
-waterButton.addEventListener('click', changeBorder);
-earthButton.addEventListener('click', changeBorder);
 
 window.onload = () => {
   eventAllClasses('template-image', 'click', templateIamge);
+  eventAllClasses('custom-border-button', 'click', changeBorder);
 };
