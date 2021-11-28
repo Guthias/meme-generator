@@ -42,7 +42,7 @@
 }
 
 .custom-border-button {
-  padding:10px 15px;
+  padding: 10px 15px;
   border: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -57,7 +57,7 @@
 }
 
 #fire:hover {
-  background-color: rgb(146, 5, 5);
+  background-color: rgb(146 , 5 , 5);
 }
 
 #water {
@@ -65,7 +65,7 @@
 }
 
 #water:hover {
-  background-color: rgb(1, 1, 148);
+  background-color: rgb(1 , 1 , 148);
 }
 
 #earth {
@@ -73,5 +73,5 @@
 }
 
 #earth:hover {
-  background-color: rgb(3, 75, 3);
+  background-color: rgb(3 , 75 , 3);
 }
