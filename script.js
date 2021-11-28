@@ -28,8 +28,23 @@ function changeText(event) {
   memeText.innerText = event.target.value;
 }
 
+function eventAllClasses(className, type, functionName) {
+  const elements = document.querySelectorAll(`.${className}`);
+  for (let i = 0; i < elements.length; i += 1) {
+    elements[i].addEventListener(type, functionName);
+  }
+}
+
+function templateIamge(event) {
+  memeImage.src = event.target.src;
+}
+
 memeInsert.addEventListener('change', changeImage);
 memeInput.addEventListener('keyup', changeText);
 fireButton.addEventListener('click', changeBorder);
 waterButton.addEventListener('click', changeBorder);
 earthButton.addEventListener('click', changeBorder);
+
+window.onload = () => {
+  eventAllClasses('template-image', 'click', templateIamge);
+};
