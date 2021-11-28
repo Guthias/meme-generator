@@ -75,3 +75,23 @@
 #earth:hover {
   background-color: rgb(3 , 75 , 3);
 }
+
+.template-image-area{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.template-image {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  position: relative;
+}
+
+.template-image:hover {
+  outline: black 5px solid;
+}
