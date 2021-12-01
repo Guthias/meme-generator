@@ -76,7 +76,7 @@
   background-color: rgb(3 , 75 , 3);
 }
 
-.template-image-area{
+.template-image-area {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
